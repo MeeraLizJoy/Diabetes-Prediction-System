@@ -141,24 +141,6 @@ The frontend is built using React and provides a user-friendly interface for int
 
     Visit `http://localhost:3000` in your web browser.
 
-## Deployment
-
-The frontend is deployed on Netlify. To deploy your own version:
-
-1.  **Build the application:**
-
-    ```bash
-    npm run build
-    ```
-
-2.  **Deploy to Netlify:**
-
-    - Create a Netlify account.
-    - Connect your GitHub repository to Netlify.
-    - Configure the build settings:
-        - **Build command:** `npm run build`
-        - **Publish directory:** `build`
-    - Deploy the site.
 
 ## Contributing
 
