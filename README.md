@@ -111,50 +111,6 @@ The Diabetes Prediction System aims to provide users with an easy-to-use tool fo
 
     Visit `http://localhost:3000` in your web browser.
 
-## Deployment
-
-### Frontend Deployment
-
-The frontend is deployed on Netlify. To deploy your own version:
-
-1.  **Build the application:**
-
-    ```bash
-    cd frontend
-    npm run build
-    ```
-
-2.  **Deploy to Netlify:**
-
-    - Create a Netlify account.
-    - Connect your GitHub repository to Netlify.
-    - Configure the build settings:
-        - **Build command:** `npm run build`
-        - **Publish directory:** `build`
-    - Deploy the site.
-
-### Backend Deployment
-
-The backend is deployed on Heroku. To deploy your own version:
-
-1.  **Create a Heroku account and install the Heroku CLI.**
-2.  **Create a Heroku app:**
-
-    ```bash
-    cd backend
-    heroku create <your-app-name>
-    ```
-
-3.  **Deploy to Heroku:**
-
-    ```bash
-    git push heroku main
-    ```
-
-4.  **Update the frontend API URL:**
-
-    - In `frontend/src/components/PredictionForm.js`, replace `http://127.0.0.1:5000/predict` with your Heroku app's URL.
-    - Rebuild and redeploy the frontend to Netlify.
 
 ## Model Details
 
