@@ -83,7 +83,6 @@ This repository contains the frontend component of the Diabetes Prediction Syste
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
