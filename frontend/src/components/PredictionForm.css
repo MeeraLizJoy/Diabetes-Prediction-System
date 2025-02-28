@@ -1,0 +1,113 @@
+.prediction-form-container {
+    width: 600px; /* Increased width for better layout */
+    margin: 40px auto; /* Increased margin for better spacing */
+    padding: 30px; /* Increased padding */
+    border: 1px solid #e0e0e0; /* Lighter border */
+    border-radius: 8px; /* Slightly rounded corners */
+    font-family: 'Arial', sans-serif; /* More readable font */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #f9f9f9; /* Light background */
+}
+
+
+.section-title {
+    color: #333;
+    margin-bottom: 25px; /* Increased margin */
+    font-size: 24px; /* Larger font size */
+    font-weight: 600; /* Semi-bold font */
+    text-align: center; /* Center the title */
+}
+
+.bmi-calculator {
+    margin-bottom: 30px; /* Increased margin */
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Space items evenly */
+}
+
+.bmi-calculator label,
+.bmi-calculator input,
+.bmi-calculator button {
+    margin: 5px; /* Add margin */
+}
+
+.bmi-calculator label {
+    flex-basis: 30%; /* Label width */
+    text-align: right; /* Align label text to right */
+    padding-right: 10px; /* Add padding to label */
+}
+
+.bmi-calculator input {
+    flex-basis: 60%; /* Input width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.bmi-calculator button {
+    flex-basis: 100%; /* Button full width */
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px; /* Add margin to button */
+}
+
+.bmi-result {
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center; /* Center the BMI result */
+    font-size: 18px; /* Larger font size */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Increased margin */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Align items vertically */
+}
+
+.form-group label {
+    flex-basis: 30%; /* Label width */
+    text-align: right; /* Align label text to right */
+    padding-right: 10px; /* Add padding to label */
+}
+
+.form-group input {
+    flex-basis: 60%; /* Input width */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.predict-button {
+    background-color: #28a745; /* Green button */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Make button full width */
+    margin: 20px auto; /* Center the button */
+    font-size: 18px; /* Larger font size */
+}
+
+.prediction-message {
+    margin-top: 30px; /* Increased margin */
+    padding: 15px;
+    border: 1px solid #d1e7dd; /* Light green border */
+    border-radius: 4px;
+    background-color: #e8f5e9; /* Light green background */
+    color: #388e3c; /* Dark green text */
+    text-align: center; /* Center the message */
+    font-size: 16px; /* Larger font size */
+}
+
+.section-title {
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center; /* Add this line */
+}
