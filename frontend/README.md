@@ -68,4 +68,105 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Diabetes-Prediction-System
+
+
+# Diabetes Prediction System - Frontend
+
+This repository contains the frontend component of the Diabetes Prediction System, a web application that allows users to calculate their BMI and predict their risk of diabetes based on various health metrics.
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## About
+
+The frontend is built using React and provides a user-friendly interface for interacting with the Diabetes Prediction System. It includes a BMI calculator and a form for predicting diabetes risk. The frontend communicates with a Flask backend API to perform the predictions.
+
+## Features
+
+- **BMI Calculator:** Calculates the Body Mass Index based on user-provided height and weight.
+- **Diabetes Risk Prediction:** Predicts the risk of diabetes based on user-entered health metrics.
+- **User-Friendly Interface:** Provides a clean and intuitive interface for easy interaction.
+- **Responsive Design:** Ensures the application is accessible on various devices.
+- **Clear Prediction Messages:** Delivers easy to understand messages to the user based on the prediction.
+
+## Technologies Used
+
+- **React:** JavaScript library for building user interfaces.
+- **Axios:** Promise-based HTTP client for making API requests.
+- **CSS:** Styling for the application.
+- **HTML:** Structure of the application.
+- **JavaScript:** Logic and functionality of the application.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <repository_url>
+    cd DiabetesPredictionSystem/frontend
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+1.  **Start the development server:**
+
+    ```bash
+    npm start
+    ```
+
+2.  **Open the application in your browser:**
+
+    Visit `http://localhost:3000` in your web browser.
+
+## Deployment
+
+The frontend is deployed on Netlify. To deploy your own version:
+
+1.  **Build the application:**
+
+    ```bash
+    npm run build
+    ```
+
+2.  **Deploy to Netlify:**
+
+    - Create a Netlify account.
+    - Connect your GitHub repository to Netlify.
+    - Configure the build settings:
+        - **Build command:** `npm run build`
+        - **Publish directory:** `build`
+    - Deploy the site.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
