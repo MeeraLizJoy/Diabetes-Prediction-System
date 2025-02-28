@@ -1,0 +1,5 @@
+dia_venv/
+frontend/build/
+frontend/node_modules/
+*.pyc
+*.DS_Store
